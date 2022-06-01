@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(./images/bg.png);
+}
+
+.container{
+    padding: 200px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-size: 50px;
+    font-weight: normal;
+    cursor: pointer;
+    text-shadow: 0 0 15px #999;
+    color: transparent;
+    transition: all .5s;
+    margin-bottom: 100px;
+}
+.title:hover{
+    text-shadow: 0 0 0px #333;
+    cursor: pointer;
+}
+
+.game{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.element{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 130px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+
+
+.button__input{
+    margin-bottom: 40px;
+}
+
+.active{
+    background-color: green;
+}
+
+
+.winner{
+    background-color: blue;
+}
+
+.falled{
+    background-color: rgb(165, 52, 52);
+}
+
+
+
+
